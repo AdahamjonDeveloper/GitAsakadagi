@@ -57,46 +57,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-//            tasbeh++
-//            binding.tvTasbeh.text = tasbeh.toString()
-//
-//
-//            if (tasbeh > 33){
-//                binding.btnSanoq.text = "Alhamdulillah"
-//
-//            }
-//            if (tasbeh == 33 ){
-//                counter++
-//
-//                binding.tvCounter.text = counter.toString()
-//                binding.tvTasbeh.text = "0"
-//            }
-//        }
-
-        //bu boshqa narsa
-
-//            if (tasbeh > 66){
-//                binding.btnSanoq.text = "AllohuAkbar"
-//
-//            }
-//            if (tasbeh == 66 ){
-//                counter++
-//                binding.tvCounter.text = counter.toString()
-//                binding.tvTasbeh.text = "0"
-//
-//            }
-//          if (tasbeh > 99){
-//
-//                binding.btnSanoq.text = "SubhanAlloh"
-//
-//            }
-//            if (tasbeh == 99 ){
-//                counter++
-//                binding.tvCounter.text = counter.toString()
-//                binding.tvTasbeh.text = "0"
-//            }
-
-
 
         binding.delete.setOnClickListener {
 
@@ -106,6 +66,8 @@ class MainActivity : AppCompatActivity() {
             counter = 0
             binding.tvCounter.text = counter.toString()
             binding.tvTasbeh.text = tasbeh.toString()
+            binding.btnSanoq.text = "SybhanAlloh"
+            binding.tvTasbeh.text = "Bismillah"
         }
 
 
